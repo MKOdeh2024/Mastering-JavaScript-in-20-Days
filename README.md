@@ -12,21 +12,17 @@ The "Mastering JavaScript in 20 Days" challenge is an intensive learning program
 
 Throughout the "Mastering JavaScript in 20 Days" challenge, we have utilized various courses and learning resources to facilitate a comprehensive learning experience. Below are the key resources used:
 
-1. **JavaScript Fundamentals:** A foundational course covering the basics of JavaScript, including variables, data types, functions, and control structures. [Link to Course](https://example.com/javascript-fundamentals)
+1. **JavaScript Fundamentals:** A foundational course covering the basics of JavaScript, including variables, data types, functions, and control structures.
 
-2. **Object-Oriented JavaScript:** This course delves into object-oriented programming concepts in JavaScript, such as classes, prototypes, and inheritance. [Link to Course](https://example.com/oop-javascript)
+2. **Object-Oriented JavaScript:** This course delves into object-oriented programming concepts in JavaScript, such as classes, prototypes, and inheritance.
 
-3. **Asynchronous JavaScript:** Understanding asynchronous programming with promises, async/await, and handling callbacks. [Link to Course](https://example.com/asynchronous-javascript)
-
+3. **Asynchronous JavaScript:** Understanding asynchronous programming with promises, async/await, and handling callbacks.
+   
 ## Covered Coding Exercises During the Challenge
 
 Participants of the "Mastering JavaScript in 20 Days" challenge have worked on various coding exercises to apply the concepts learned in the courses. Some of the noteworthy exercises and projects completed during the challenge include:
 
-1. **DOM Manipulation Exercise:** A hands-on project where participants built a dynamic web page by manipulating the Document Object Model (DOM) using JavaScript. [Link to Exercise](https://example.com/dom-manipulation)
 
-2. **Shopping Cart Implementation:** Participants created a functional shopping cart system that allows users to add and remove items, calculate totals, and manage the cart state. [Link to Project](https://example.com/shopping-cart)
-
-3. **Async Weather App:** In this exercise, participants built an asynchronous weather application that fetches weather data from an API and displays it on the webpage. [Link to Project](https://example.com/weather-app)
 
 ## Reference for All the Sub-pages (Daily Pages)
 
@@ -53,4 +49,4 @@ Below is a list of links to all the sub-pages (daily pages) created during the "
 19. [Day 19: Introduction to Node.js](https://example.com/day-19-intro-to-nodejs)
 20. [Day 20: Final Project and Conclusion](https://example.com/day-20-final-project-conclusion)
 
-Feel free to explore each day's content to access the daily lessons, exercises, and projects completed during the "Mastering JavaScript in 20 Days" challenge. Happy learning!
+
