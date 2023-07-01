@@ -1,5 +1,5 @@
 
-# Day 2: Quiz Project and Quiz Project Functions
+# Day 3: Quiz Project and Quiz Project Functions
 
 This README file shows the solutions of some excersises deeping the understand of some concepts.
 
