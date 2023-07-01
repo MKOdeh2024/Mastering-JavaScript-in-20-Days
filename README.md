@@ -28,9 +28,9 @@ Participants of the "Mastering JavaScript in 20 Days" challenge have worked on v
 
 Below is a list of links to all the sub-pages (daily pages) created during the "Mastering JavaScript in 20 Days" challenge:
 
-1. [Day 1:](Day1.md)
-2. [Day 2: Understanding Variables and Data Types](https://example.com/day-2-variables-data-types)
-3. [Day 3: Functions and Control Structures](https://example.com/day-3-functions-control-structures)
+1. [Day 1](Day1.md)
+2. [Day 2](Day2.md)
+3. [Day 3](Day3.md)
 4. [Day 4: Object-Oriented JavaScript Introduction](https://example.com/day-4-oop-javascript-intro)
 5. [Day 5: Working with Classes and Prototypes](https://example.com/day-5-classes-prototypes)
 6. [Day 6: Asynchronous JavaScript Concepts](https://example.com/day-6-asynchronous-javascript)
