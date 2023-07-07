@@ -12,9 +12,9 @@ The "Mastering JavaScript in 20 Days" challenge is an intensive learning program
 
 Throughout the "Mastering JavaScript in 20 Days" challenge, we have utilized various courses and learning resources to facilitate a comprehensive learning experience. Below are the key resources used:
 
-1. **JavaScript Fundamentals:** A foundational course covering the basics of JavaScript, including variables, data types, functions, and control structures.
+1. **JavaScript: From First Steps to Professional:** A foundational course covering the basics of JavaScript, including variables, data types, functions, and control structures.
 
-2. **Object-Oriented JavaScript:** This course delves into object-oriented programming concepts in JavaScript, such as classes, prototypes, and inheritance.
+2. **JavaScript: The Hard Parts, v2:** This course taks your JavaScript to the next level. Gain an understanding of callbacks, higher-order functions, closure, asynchronous and object-oriented JavaScript!.
 
 3. **Asynchronous JavaScript:** Understanding asynchronous programming with promises, async/await, and handling callbacks.
    
