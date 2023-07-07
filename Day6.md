@@ -70,19 +70,8 @@ urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
 ```
 ## Coding Exercises
 
-### [Exercises for functions and callbacks](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day1-tasks/tasks.md)
+### [Exercises for functions and callbacks](https://github.com/MKOdeh2024/week2-day1-tasks.git)
 #### My Solution
 
 
-```javascript
-const squareList = arr => {
-   
-  return arr.filter(item => item >=0 && Number.isInteger(item)).map(item => item * item);
-  // Only change code above this line
-};
-
-const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
-console.log(squaredIntegers);
-
-```
 
