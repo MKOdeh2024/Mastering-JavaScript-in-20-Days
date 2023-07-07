@@ -11,9 +11,9 @@ In this lesson, we learned some convepts and solved  some excersies in JavaScrip
 - JavaScript is single-threaded, meaning it executes one statement at a time in a sequential manner.
 - Execution Stack (Call Stack): JavaScript uses an execution stack, also known as the call stack, to manage the order of function calls and track their execution contexts.
 - callback function is a function that is passed as an argument to another function and is invoked or called when a certain event or condition occurs.
--Higher-order functions are functions that can take other functions as arguments or return functions as their results.
--Arrow functions were introduced in ES6 which allow us to write shorter function syntax.
--Pair programming is a software development practice in which two programmers work collaboratively on the same task or piece of code.
+- Higher-order functions are functions that can take other functions as arguments or return functions as their results.
+- Arrow functions were introduced in ES6 which allow us to write shorter function syntax.
+- Pair programming is a software development practice in which two programmers work collaboratively on the same task or piece of code.
 ### Coding Example 
 ```javascript
 // Higher-order function that takes a callback function as an argument
