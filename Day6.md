@@ -33,54 +33,56 @@ higherOrderFunction(callbackFunction);
 
 ## Coding Exercises
 
-### [Build a Rick & Morty characters list]()
+### [Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-higher-order-functions-map-filter-or-reduce-to-solve-a-complex-problem)
 #### My Solution
 
 
 ```javascript
-// script.js
-async function fetchAliveCharacters() {
-  try {
-    const response = await fetch(
-      "https://rickandmortyapi.com/api/character?status=alive"
-    );
-    if (!response.ok) {
-      throw new Error("Network response was not ok");
-    }
+const squareList = arr => {
+   
+  return arr.filter(item => item >=0 && Number.isInteger(item)).map(item => item * item);
+  // Only change code above this line
+};
 
-    const data = await response.json();
-    return data.results.slice(0, 50);
-  } catch (error) {
-    console.error("Error fetching data:", error);
-    throw error;
-  }
+const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
+console.log(squaredIntegers);
+
+```
+
+## Coding Exercises
+
+### [Apply Functional Programming to Convert Strings to URL Slugs](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/apply-functional-programming-to-convert-strings-to-url-slugs)
+#### My Solution
+
+
+```javascript
+// Only change code below this line
+function urlSlug(title) {
+// Convert title to lowercase and split into an array of words
+  const words = title.toLowerCase().trim().split(/\s+/);
+  
+  // Join the words with hyphens to create the slug
+  const slug = words.join('-');
+  
+  return slug;
 }
+urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
+```
+## Coding Exercises
 
-async function displayAliveCharacters() {
-  try {
-    const characterList = document.getElementById("characterList");
-    const characters = await fetchAliveCharacters();
+### [Exercises for functions and callbacks](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day1-tasks/tasks.md)
+#### My Solution
 
-    characters.forEach((character) => {
-      const li = document.createElement("li");
-      li.innerHTML = `
-        <h3>${character.name}</h3>
-        <img src="${character.image}" alt="${character.name}">
-        <p>Location: ${character.location.name}</p>
-        <p>Species: ${character.species}</p>
-        <p>Gender: ${character.gender}</p>
-      `;
-      characterList.appendChild(li);
-    });
-  } catch (error) {
-    const characterList = document.getElementById("character-list");
-    characterList.innerHTML =
-      "<p>Error fetching characters. Please try again later.</p>";
-    console.error("Error:", error);
-  }
-}
 
-displayAliveCharacters();
+```javascript
+const squareList = arr => {
+   
+  return arr.filter(item => item >=0 && Number.isInteger(item)).map(item => item * item);
+  // Only change code above this line
+};
+
+const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
+console.log(squaredIntegers);
 
 ```
 
