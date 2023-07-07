@@ -62,7 +62,7 @@ console.log(subtract(5, 2)); // 3
 
 ## Coding Exercises
 
-### [Build a Rick & Morty characters list]()
+### [Build a Rick & Morty characters list](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week1-day5-task/task.md)
 #### My Solution
 
 
