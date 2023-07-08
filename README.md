@@ -34,7 +34,7 @@ Below is a list of links to all the sub-pages (daily pages) created during the "
 4. [Day 4](Day4.md)
 5. [Day 5](Day5.md)
 6. [Day 6](Day6.md)
-7. [Day 7: Promises and Async/Await](https://example.com/day-7-promises-async-await)
+7. [Day 7](Day7.md)
 8. [Day 8: Building a DOM Manipulation Project](https://example.com/day-8-dom-manipulation-project)
 9. [Day 9: Introduction to Shopping Cart Project](https://example.com/day-9-shopping-cart-intro)
 10. [Day 10: Completing the Shopping Cart Project](https://example.com/day-10-shopping-cart-completion)
