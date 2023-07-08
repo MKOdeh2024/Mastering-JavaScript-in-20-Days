@@ -31,45 +31,11 @@ closure();  // Outputs: I am from the outer function
 
 ## Coding Exercises
 
-### [Exercises for closures](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day2-tasks/tasks.md)
+### [Exercises for closures](https://github.com/MKOdeh2024/week2-day2-tasks.git)
 #### My Solution
 
 
 ```javascript
-const squareList = arr => {
-   
-  return arr.filter(item => item >=0 && Number.isInteger(item)).map(item => item * item);
-  // Only change code above this line
-};
-
-const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
-console.log(squaredIntegers);
 
 ```
-
-## Coding Exercises
-
-### [Apply Functional Programming to Convert Strings to URL Slugs](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/apply-functional-programming-to-convert-strings-to-url-slugs)
-#### My Solution
-
-
-```javascript
-// Only change code below this line
-function urlSlug(title) {
-// Convert title to lowercase and split into an array of words
-  const words = title.toLowerCase().trim().split(/\s+/);
-  
-  // Join the words with hyphens to create the slug
-  const slug = words.join('-');
-  
-  return slug;
-}
-urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
-```
-## Coding Exercises
-
-### [Exercises for functions and callbacks](https://github.com/MKOdeh2024/week2-day1-tasks.git)
-#### My Solution
-
-
 
