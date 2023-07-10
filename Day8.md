@@ -41,12 +41,9 @@ asyncOperation()
 
 ## Coding Exercises
 
-### [Exercises for Async JS & Promises](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day3-tasks/tasks.md)
+### [Exercises for Async JS & Promises](https://github.com/MKOdeh2024/week2-day3-tasks.git)
 #### My Solution
 
 
-```javascript
-
-```
 
 
