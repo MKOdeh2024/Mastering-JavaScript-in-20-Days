@@ -35,7 +35,7 @@ Below is a list of links to all the sub-pages (daily pages) created during the "
 5. [Day 5](Day5.md)
 6. [Day 6](Day6.md)
 7. [Day 7](Day7.md)
-8. [Day 8: Building a DOM Manipulation Project](https://example.com/day-8-dom-manipulation-project)
+8. [Day 8](Day8.md)
 9. [Day 9: Introduction to Shopping Cart Project](https://example.com/day-9-shopping-cart-intro)
 10. [Day 10: Completing the Shopping Cart Project](https://example.com/day-10-shopping-cart-completion)
 11. [Day 11: Creating an Async Weather App](https://example.com/day-11-async-weather-app)
