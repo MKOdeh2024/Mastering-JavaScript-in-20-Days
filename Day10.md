@@ -7,66 +7,54 @@ This README file explains Types  and Coercion in js.
 
 In this lesson, we learned some convepts and solved  some excersies in JavaScript. Here are the key points covered:
 
-- Classes are a blueprint or template for creating objects.
-- They encapsulate data (attributes) and operations (methods) that define the behavior and characteristics of objects. 
-- classes allow you to create multiple and independent instances (objects) based on the same blueprint.
-- Prototypes provide a mechanism for objects to inherit properties and methods from other objects.
-- In JavaScript, every object has an internal property called [[Prototype]], which references another object or **null**.
-- When you access a property or call a method on an object, and the property or method is not found directly on the object itself, JavaScript automatically looks for it in the object's prototype.
-- wrapping up typically refers to encapsulating code within a function or module to create a closure and control the scope of variables and functions.
+- primitive types are data types that are not objects and do not have methods or properties. Tey are ımmutable 
+- **undefined** refers to a special value that represents the absence of a value or the uninitialized state of a variable. It is assigned to variables that have been declared but not assigned a value.
+- **Undeclared** variables, on the other hand, are variables that have not been declared using the var, let, or const keywords. Accessing an undeclared variable will result in a ReferenceError.
+- **NaN** (invalid Number) is a special value that represents the result of an invalid or undefined mathematical operation.
+- The **isNaN()** function is used to determine whether a value is NaN or not. 
+- Negative zero (-0) is a special case that behaves differently from regular zero (0) in certain operations.
+- Coercion in JavaScript refers to the automatic conversion of values from one type to another by the JavaScript engine.
+- JavaScript has two types of coercion: implicit coercion and explicit coercion.
+- Abstract operations are internal operations defined by the language specification that dictate how various operations are performed on values.
 ### Coding Example 
 ```javascript
-// Wrapping up code in a module
-const myModule = (function() {
-  // Private variable
-  let privateVar = 'Private variable';
+let num = 42;         // Number
+let str = "Hello";    // String
+let bool = true;      // Boolean
+let undef = undefined;// Undefined
+let n = null;         // Null
+let sym = Symbol();   // Symbol
+let x; // variable declared but not assigned a value
+console.log(x); // Output: undefined
+console.log(y); // ReferenceError: y is not defined
+let result = 0 / 0; // Performing an invalid division
+console.log(result); // Output: NaN
 
-  // Private function
-  function privateFunc() {
-    console.log('Private function');
-  }
+console.log(isNaN(result)); // Output: true
+console.log(isNaN(42)); // Output: false
+// Negative Zero
+console.log(1 / 0);   // Output: Infinity
+console.log(1 / -0);  // Output: -Infinity
 
-  // Class definition using ES6 class syntax
-  class MyClass {
-    constructor(name) {
-      this.name = name;
-    }
+console.log(-0 === 0);            // Output: true
+console.log(-0 === 0 && 1 / -0);  // Output: false
 
-    // Prototype method
-    greet() {
-      console.log(`Hello, my name is ${this.name}`);
-    }
-  }
+// Implicit corecion
+let num = 42;              // Number
+let str = "The answer is "; // String
 
-  // Public API
-  return {
-    // Public method
-    publicMethod: function() {
-      console.log('Public method');
-    },
+let result = str + num;
+console.log(result);  // Output: "The answer is 42"
 
-    // Creating instances of MyClass
-    createInstance: function(name) {
-      return new MyClass(name);
-    },
+// Explicit coercion to Number type
+let numStr = "42";       // String
+let num = Number(numStr); 
 
-    // Accessing private variable
-    getPrivateVar: function() {
-      return privateVar;
-    }
-  };
-})();
-
-myModule.publicMethod();  // Output: Public method
-
-const instance = myModule.createInstance('Alice');
-instance.greet();         // Output: Hello, my name is Alice
-
-console.log(myModule.getPrivateVar());   // Output: Private variable
+console.log(num);  // Output: 42
 
 ```
 
 ## Coding Exercises
 
-### [Object Oriented Programming in FreeCodeCamp.](https://www.freecodecamp.org/fcce5aa636f-0382-4e96-a0d3-f54c7866d398)
+### [TYPES AND COERCION EXERCISES](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day1-tasks/tasks.md)
 #### Click on the title to reach to solution
