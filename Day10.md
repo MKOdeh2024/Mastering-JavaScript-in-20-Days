@@ -56,5 +56,5 @@ console.log(num);  // Output: 42
 
 ## Coding Exercises
 
-### [TYPES AND COERCION EXERCISES](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day1-tasks/tasks.md)
+### [TYPES AND COERCION EXERCISES](https://github.com/MKOdeh2024/week3-day1-tasks.git)
 #### Click on the title to reach to solution
