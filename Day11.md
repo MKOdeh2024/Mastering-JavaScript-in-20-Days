@@ -42,6 +42,6 @@ console.log(blockVariable); // Error: blockVariable is not defined
 
 ## Coding Exercises
 
-### [SECTION'S EXERCISES](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week3-day2-tasks/tasks.md)
+### [SECTION'S EXERCISES](https://github.com/MKOdeh2024/week3-day2-tasks.git)
 #### Click on the title to reach to solution
 
