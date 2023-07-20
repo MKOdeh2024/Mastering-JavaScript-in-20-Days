@@ -87,5 +87,5 @@ example();
 
 ## Coding Exercises
 
-### [SECTION'S EXERCISES](https://github.com/MKOdeh2024/week3-day2-tasks.git)
+### [SECTION'S EXERCISES](https://github.com/MKOdeh2024/week3-day3-tasks.git)
 #### Click on the title to reach to solution
