@@ -56,5 +56,5 @@ console.log(calculatorModule.getResult()); // Output: 8
 
 ## Coding Exercises
 
-### [SECTION'S EXERCISES](https://github.com/MKOdeh2024/week3-day3-tasks.git)
+### [SECTION'S EXERCISES](https://github.com/MKOdeh2024/week3-day4-tasks.git)
 #### Click on the title to reach to solution
