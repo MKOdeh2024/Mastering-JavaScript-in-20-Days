@@ -16,7 +16,7 @@ IIFE (Immediately Invoked Function Expression)
 - **Dynamic** scope, unlike lexical scope, determines the scope of a variable based on the flow of execution during runtime (not applicable inJS).
 - Scope defines the accessibility and visibility of variables in JavaScript. 
 - **Function** scope refers to the concept that variables declared within a function are only accessible within that function and its nested functions, creating a local scope for those variables.
-- JAn **IIFE** (Immediately Invoked Function Expression) is a JavaScript design pattern used to create a private scope for variables and prevent them from polluting the global namespace. 
+- An **IIFE** (Immediately Invoked Function Expression) is a JavaScript design pattern used to create a private scope for variables and prevent them from polluting the global namespace. 
 - It involves defining a function expression and immediately invoking it, encapsulating the code within its scope. 
 - The primary purpose of an IIFE is to provide a way to execute code immediately without leaving any variables or function declarations in the global scope.
 - **Block** scoping in JavaScript is a way to declare variables that are confined to the block in which they are defined.
@@ -70,7 +70,18 @@ function outer() {
 }
 outer();
 
+function example() {
+var radius = 1;
+  if (true) {
+    const PI = 3.1419;
+    let x = 10; // x is block-scoped to this if block
+    console.log(x); // Output: 10
+  }
 
+  // console.log(x); // Error: 'x' is not defined here because it is outside the block where it was declared.
+}
+
+example();
 
 ```
 
